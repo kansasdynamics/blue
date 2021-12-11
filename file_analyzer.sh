@@ -27,7 +27,7 @@ echo >> "analysis_$1.md"
 
 # Hexdump
 echo "# Hexdump" >> "analysis_$1.md"
-hexdump -C -n 20 $1 >> "analysis_$1.md"
+hexdump -C -n 100 $1 >> "analysis_$1.md"
 echo >> "analysis_$1.md"
 
 # File
