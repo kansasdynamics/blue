@@ -13,4 +13,9 @@ See the instructions below for each script.
 ### *File Analyzer*  
 Place the shell script in the same directory as the file you want to analyze and then run it.
 
-`sudo ./file_analyzer.sh <filename.ext>`
+`sudo ./file_analyzer.sh <filename.ext>`  
+
+### *Install ExifTool*  
+Place the shell script in the same directory as the file you want to analyze and then run it.
+
+`sudo ./install_exiftool.sh <filename.ext>`
