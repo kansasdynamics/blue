@@ -22,7 +22,7 @@ echo >> "analysis_$1.md"
 
 # VirusTotal
 echo "# VirusTotal" >> "analysis_$1.md"
-echo '[VirusTotal](https://www.virustotal.com/gui/file/'$shm_id')' >> "analysis_$1.md"
+echo '[VirusTotal] https://www.virustotal.com/gui/file/'$shm_id'' >> "analysis_$1.md"
 echo >> "analysis_$1.md"
 
 # Hexdump
