@@ -18,4 +18,9 @@ Place the shell script in the same directory as the file you want to analyze and
 ### *Install ExifTool*  
 Place the shell script in the same directory as the file you want to analyze and then run it.
 
-`sudo ./install_exiftool.sh`
+`sudo ./install_exiftool.sh`  
+
+### *Install Sonic Visualiser*  
+Place the shell script in the same directory as the file you want to analyze and then run it.
+
+`sudo ./install_sonicvisualiser.sh`
