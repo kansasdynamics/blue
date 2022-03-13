@@ -19,7 +19,7 @@ sudo ./file_analyzer.sh <filename.ext>
 ```
 
 ### *Install ExifTool*  
-Place the shell script in the same directory as the file you want to analyze and then run it.
+Install the ExifTool metadata reader application for file analysis.
 
 ```
 sudo chmod +x install_exiftool.sh  
@@ -27,7 +27,7 @@ sudo ./install_exiftool.sh
 ```  
 
 ### *Install Sonic Visualiser*  
-Place the shell script in the same directory as the file you want to analyze and then run it.
+Install the Sonic Visualiser audio steganography application.
 
 ```
 sudo chmod +x install_sonicvisualiser.sh  
@@ -35,7 +35,7 @@ sudo ./install_sonicvisualiser.sh
 ```
 
 ### *Extract Steghide*  
-Place the shell script in the same directory as the file you want to analyze and then run it.
+Extract hidden artifacts in files using the Steghide steganography application.
 
 ```
 sudo chmod +x extract_steghide.sh  
