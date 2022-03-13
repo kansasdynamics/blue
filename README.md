@@ -11,16 +11,33 @@ Use in Debian-based distros like Kali or Ubuntu.
 See the instructions below for each script.  
 
 ### *File Analyzer*  
-Place the shell script in the same directory as the file you want to analyze and then run it.
+Place the shell script in the same directory as the file you want to analyze and then run it.  
+
+Make the script executable  
+`sudo chmod +x file_analyzer.sh`  
 
 `sudo ./file_analyzer.sh <filename.ext>`  
 
 ### *Install ExifTool*  
 Place the shell script in the same directory as the file you want to analyze and then run it.
 
+Make the script executable  
+`sudo chmod +x install_exiftool.sh` 
+
 `sudo ./install_exiftool.sh`  
 
 ### *Install Sonic Visualiser*  
 Place the shell script in the same directory as the file you want to analyze and then run it.
 
+Make the script executable  
+`sudo chmod +x install_sonicvisualiser.sh` 
+
 `sudo ./install_sonicvisualiser.sh`
+
+### *Extract Steghide*  
+Place the shell script in the same directory as the file you want to analyze and then run it.
+
+Make the script executable  
+`sudo chmod +x extract_steghide.sh` 
+
+`sudo ./extract_steghide.sh`
