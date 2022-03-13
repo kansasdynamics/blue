@@ -13,8 +13,10 @@ See the instructions below for each script.
 ### *File Analyzer*  
 Place the shell script in the same directory as the file you want to analyze and then run it.  
  
-`sudo chmod +x file_analyzer.sh  
-sudo ./file_analyzer.sh <filename.ext>`  
+```
+sudo chmod +x file_analyzer.sh  
+sudo ./file_analyzer.sh <filename.ext>
+```
 
 ### *Install ExifTool*  
 Place the shell script in the same directory as the file you want to analyze and then run it.
