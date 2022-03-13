@@ -43,4 +43,7 @@ Extract hidden artifacts in files using the Steghide steganography application.
 ```
 sudo chmod +x extract_steghide.sh  
 sudo ./extract_steghide.sh
-```
+```  
+*Extract Steghide Sample Output*  
+
+![Extract Steghide Sample Output](https://user-images.githubusercontent.com/89443340/158044002-b9b222e5-d841-4377-96cf-47681070653a.png "Extract Steghide Sample Output")
