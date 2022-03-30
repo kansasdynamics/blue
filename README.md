@@ -1,4 +1,4 @@
-# dfir
+# DFIR
 Digital Forensics and Incident Response Scripts
 
 ## Purpose
