@@ -47,3 +47,15 @@ sudo ./extract_steghide.sh
 *Extract Steghide Sample Output*  
 
 ![Extract Steghide Sample Output](https://user-images.githubusercontent.com/89443340/158044002-b9b222e5-d841-4377-96cf-47681070653a.png "Extract Steghide Sample Output")
+
+
+### *Make Project*  
+Make a directory structure to store artifacts for a forensics project.
+
+```
+sudo chmod +x make_project.sh  
+sudo ./make_project.sh
+```  
+*Make Project Sample Output*  
+
+![Extract Steghide Sample Output](https://user-images.githubusercontent.com/89443340/158044002-b9b222e5-d841-4377-96cf-47681070653a.png "Extract Steghide Sample Output")
