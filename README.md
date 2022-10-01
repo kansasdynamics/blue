@@ -58,4 +58,4 @@ sudo ./make_project.sh
 ```  
 *Make Project Sample Output*  
 
-![Extract Steghide Sample Output]([https://user-images.githubusercontent.com/89443340/158044002-b9b222e5-d841-4377-96cf-47681070653a.png](https://user-images.githubusercontent.com/89443340/193428332-ec702b0d-a296-4036-b88b-1bfba6137381.png) "Make Project Sample Output")
+![Make Project Sample Output](https://user-images.githubusercontent.com/89443340/193428332-ec702b0d-a296-4036-b88b-1bfba6137381.png "Make Project Sample Output")
