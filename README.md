@@ -15,7 +15,7 @@ Place the shell script in the same directory as the file you want to analyze and
  
 ```
 sudo chmod +x file_analyzer.sh  
-sudo ./file_analyzer.sh <filename.ext>
+./file_analyzer.sh <filename.ext>
 ```  
 *File Analyzer Sample Output*  
 
@@ -26,7 +26,7 @@ Install the ExifTool metadata reader application for file analysis.
 
 ```
 sudo chmod +x install_exiftool.sh  
-sudo ./install_exiftool.sh
+./install_exiftool.sh
 ```  
 
 ### *Install Sonic Visualiser*  
@@ -34,7 +34,7 @@ Install the Sonic Visualiser audio steganography application.
 
 ```
 sudo chmod +x install_sonicvisualiser.sh  
-sudo ./install_sonicvisualiser.sh
+./install_sonicvisualiser.sh
 ```
 
 ### *Extract Steghide*  
@@ -42,7 +42,7 @@ Extract hidden artifacts in files using the Steghide steganography application.
 
 ```
 sudo chmod +x extract_steghide.sh  
-sudo ./extract_steghide.sh
+./extract_steghide.sh
 ```  
 *Extract Steghide Sample Output*  
 
@@ -54,7 +54,7 @@ Make a directory structure to store artifacts for a forensics project.
 
 ```
 sudo chmod +x make_project.sh  
-sudo ./make_project.sh
+./make_project.sh
 ```  
 *Make Project Sample Output*  
 
@@ -66,7 +66,7 @@ Update the */etc/hosts* file to resolve a hostname for an IP address while perfo
 
 ```
 sudo chmod +x add_host.sh  
-sudo ./add_host.sh
+./add_host.sh
 ``` 
 
 ### *Init Project*  
