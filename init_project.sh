@@ -29,7 +29,7 @@ echo "The required packages are already installed."
 # Start nmap scan
 # Save results to file in the Project/Scans directory
 echo "Commencing Nmap scan of the Target..."
-nmap -sV -sC -Pn -p1-65535 ${TARGET} > ${HOME}/${PROJECT}/Scans/${PROJECT}_nmap.log
+nmap -sV -sC -oA -Pn -p1-65535 ${TARGET} > ${HOME}/${PROJECT}/Scans/${PROJECT}_nmap.log
 echo "Nmap scan complete. View the results in the ${PROJECT}/Scans folder."
 
 # Start gobuster dir scan 
