@@ -8,7 +8,7 @@ read -p "Enter Target IP/Host: " TARGET
 echo "Creating Project folder structure..."
 cd ${HOME}
 mkdir -p ${PROJECT}/{Logs,Scans,Scope,Tools,Credentials,Data,Screenshots}
-cd ${PROJECT}
+cd ${HOME}/${PROJECT}
 echo "Project folder is now available."
 
 
@@ -33,14 +33,16 @@ git clone https://github.com/kansasdynamics/dfir.git
 
 # Moving the scripts from the dfir directory to the parent Tools directory
 shopt -s nullglob
-for {SCRIPT} in *.jpg *.jpeg *.bmp *.wav *.au
+for {SCRIPT} in *.sh
 do
   if [[ -f ${SCRIPT} ]] 
     then
       mv ${SCRIPT} ../${SCRIPT}
   fi
 done
+rm -rf dfir
 echo "Scripts successfully cloned into the ${PROJECT}/Tools folder."
+cd ${HOME}/${PROJECT}
 
 # Start nmap scan
 # Save results to file in the Project/Scans directory
