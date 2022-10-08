@@ -59,3 +59,12 @@ sudo ./make_project.sh
 *Make Project Sample Output*  
 
 ![Make Project Sample Output](https://user-images.githubusercontent.com/89443340/193428332-ec702b0d-a296-4036-b88b-1bfba6137381.png "Make Project Sample Output")
+
+
+### *Add Host*  
+Update the /etc/hosts file to resolve a hostname for an IP address while performing forensics in a virtual machine.
+
+```
+sudo chmod +x add_host.sh  
+sudo ./add_host.sh
+``` 
