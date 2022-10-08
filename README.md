@@ -58,7 +58,7 @@ sudo ./make_project.sh
 ```  
 *Make Project Sample Output*  
 
-![Make Project Sample Output](https://user-images.githubusercontent.com/89443340/193428332-ec702b0d-a296-4036-b88b-1bfba6137381.png "Make Project Sample Output")
+![Make Project Sample Output](https://user-images.githubusercontent.com/89443340/194686518-c6cdf29d-bfb0-4f6e-8a70-70d5aba415ed.png "Make Project Sample Output")
 
 
 ### *Add Host*  
