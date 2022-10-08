@@ -37,6 +37,7 @@ for {SCRIPT} in *.sh
 do
   if [[ -f ${SCRIPT} ]] 
     then
+      sudo chmod +x ${SCRIPT}
       mv ${SCRIPT} ../${SCRIPT}
   fi
 done
