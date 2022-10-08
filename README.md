@@ -68,3 +68,14 @@ Update the */etc/hosts* file to resolve a hostname for an IP address while perfo
 sudo chmod +x add_host.sh  
 sudo ./add_host.sh
 ``` 
+
+### *Init Project*  
+Create a directory structure for a forensics project and run initial Nmap and Gobuster scans on the target.
+
+```
+sudo chmod +x init_project.sh  
+./init_project.sh
+```  
+*Init Project Sample Output*  
+
+![Init Project Sample Output](https://user-images.githubusercontent.com/89443340/193428332-ec702b0d-a296-4036-b88b-1bfba6137381.png "Init Project Sample Output")
