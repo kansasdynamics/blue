@@ -26,10 +26,20 @@ then
 fi
 echo "The required packages are already installed."
 
-# Git clone other useful scripts into the Tools directory.
+# Git clone other useful scripts into the Tools directory
 echo "Installing scripts in the ${PROJECT}/Tools folder."
 cd ${HOME}/${PROJECT}/Tools
 git clone https://github.com/kansasdynamics/dfir.git
+
+# Moving the scripts from the dfir directory to the parent Tools directory
+shopt -s nullglob
+for {SCRIPT} in *.jpg *.jpeg *.bmp *.wav *.au
+do
+  if [[ -f ${SCRIPT} ]] 
+    then
+      mv ${SCRIPT} ../${SCRIPT}
+  fi
+done
 echo "Scripts successfully cloned into the ${PROJECT}/Tools folder."
 
 # Start nmap scan
