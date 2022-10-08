@@ -78,4 +78,4 @@ sudo chmod +x init_project.sh
 ```  
 *Init Project Sample Output*  
 
-![Init Project Sample Output](https://user-images.githubusercontent.com/89443340/193428332-ec702b0d-a296-4036-b88b-1bfba6137381.png "Init Project Sample Output")
+![Init Project Sample Output](https://user-images.githubusercontent.com/89443340/194686187-f68290f4-57fa-4a9f-8dda-67f1edd3ee20.png "Init Project Sample Output")
