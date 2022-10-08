@@ -62,7 +62,7 @@ sudo ./make_project.sh
 
 
 ### *Add Host*  
-Update the /etc/hosts file to resolve a hostname for an IP address while performing forensics in a virtual machine.
+Update the */etc/hosts* file to resolve a hostname for an IP address while performing forensics in a virtual machine.
 
 ```
 sudo chmod +x add_host.sh  
