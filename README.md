@@ -1,5 +1,5 @@
-# DFIR
-Digital Forensics and Incident Response Scripts
+# Blue Team Scripts
+The scripts in this repository are primarily for Digital Forensics and Incident Response, but may also include general purpose system administration scripts.
 
 ## Purpose
 This script automates a few tools used to analyze suspicious files and outputs the result in a markdown file.
