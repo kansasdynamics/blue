@@ -1,15 +1,6 @@
 # Blue Team Scripts
 The scripts in this repository are primarily for Digital Forensics and Incident Response, but may also include general purpose system administration scripts.
 
-## Purpose
-This script automates a few tools used to analyze suspicious files and outputs the result in a markdown file.
-
-## Platforms
-Use in Debian-based distros like Kali or Ubuntu.
-
-## Usage  
-See the instructions below for each script.  
-
 ### *File Analyzer*  
 Place the shell script in the same directory as the file you want to analyze and then run it.  
  
