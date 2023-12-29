@@ -26,38 +26,45 @@ strings_file="${base_filename}_${timestamp}_Strings.txt"
 
 # Creating the analysis file
 touch "$analysis_file"
-echo "# File Name" >> "$analysis_file"
+echo "### File Name ###" >> "$analysis_file"
+echo '-----------------' >> "$analysis_file"
 echo $1 >> "$analysis_file"
 echo >> "$analysis_file"
 
 # Hash
 shm_id=$(sha256sum  $1 | awk '{print $1}')
-echo "# SHA256 File Hash" >> "$analysis_file"
+echo "### SHA256 File Hash ###" >> "$analysis_file"
+echo '-------------------------' >> "$analysis_file"
 echo $shm_id >> "$analysis_file"
 echo >> "$analysis_file"
 
 # VirusTotal
-echo "# VirusTotal" >> "$analysis_file"
+echo "### VirusTotal ###" >> "$analysis_file"
+echo '------------------' >> "$analysis_file"
 echo '[VirusTotal] https://www.virustotal.com/gui/file/'$shm_id'' >> "$analysis_file"
 echo >> "$analysis_file"
 
 # Hexdump
-echo "# Hexdump" >> "$analysis_file"
+echo "### Hexdump ###" >> "$analysis_file"
+echo '----------------' >> "$analysis_file"
 hexdump -C -n 100 $1 >> "$analysis_file"
 echo >> "$analysis_file"
 
 # File
-echo "# File Type" >> "$analysis_file"
+echo "### File Type ###" >> "$analysis_file"
+echo '-----------------' >> "$analysis_file"
 file -i $1 >> "$analysis_file"
 echo >> "$analysis_file"
 
 # Exiftool
-echo "# Exiftool" >> "$analysis_file"
+echo "### Exiftool ###" >> "$analysis_file"
+echo '----------------' >> "$analysis_file"
 exiftool $1 >> "$analysis_file"
 echo >> "$analysis_file"
 
 # Strings
-echo "# Strings Output" >> "$analysis_file"
+echo "### Strings Output ###" >> "$analysis_file"
+echo '----------------------' >> "$analysis_file"
 strings -a $1 > "$strings_file"
 echo "Strings output stored in $strings_file" >> "$analysis_file"
 echo >> "$analysis_file"
